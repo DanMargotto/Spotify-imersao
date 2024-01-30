@@ -200,9 +200,12 @@ body {
 
 .footer {
     text-align: center;
-    background-color: #000;
+    background: linear-gradient(to right, #b114bd, #3998ff);
     color: #b3b3b3;
     padding: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
 }
 
 .footer__content {
@@ -226,4 +229,26 @@ body {
 
 .footer .footer__link:hover {
     color: #fff;
+}
+
+.footer2 {
+    text-align: center;
+    color: #b3b3b3;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;    
+}
+
+.footer2 .footer__content2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2 .footer__bottom {
+    display: flex;
+}
+
+.footer2 .footer__text2 {
+    margin-right: 10px;
 }
